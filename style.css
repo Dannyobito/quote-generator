@@ -74,16 +74,17 @@ button:active {
 .fa-twitter {
   font-size: 1.5rem;
 }
-/* loader animation */
+/* loader*/
 .loader {
   border: 16px solid #f3f3f3;
-  border-top: 16px solid #3498db; /* Blue */
+  border-top: 16px solid #333333;
   border-radius: 50%;
   width: 120px;
   height: 120px;
   animation: spin 2s linear infinite;
 }
 
+/* loader animation */
 @keyframes spin {
   0% {
     transform: rotate(0deg);
